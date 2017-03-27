@@ -1,0 +1,122 @@
+
+
+
+body {
+			font-family: Tahoma, Geneva, sans-serif;
+			fill: white;
+			font-size: 12px;
+			background-color: #171f3e;
+			color:white
+		}
+
+
+       
+.popup {
+    background-color: black ;
+    width: 100px;
+    height: 100px;
+}        
+        
+.axis path, .axis line {
+  fill: none;
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}
+
+.y .tick text, .x .tick text{
+    font-size:8px;
+    fill: #666;    
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.donutData.name text{
+font-size:8px;
+    fill: rgba(255,255,255,0.6);    
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.donutArcSlices, .donutText{
+    fill: #5c6277;
+}
+
+.axisText{
+fill: #5c6277;
+}
+
+.dot {
+    fill-opacity: 0.1;
+    fill: blue;
+}
+
+.high-dew{
+    fill: red;
+}
+
+.low-dew{
+    fill: green;
+}
+
+svg.board {
+    background: #141b37;
+}
+
+.city-label{
+    font: 25px sans-serif;
+	fill: Aquamarine ;
+}
+
+.Windrose{
+    font: 15px sans-serif;
+	fill: black;
+}
+
+div.tooltip {	
+    position: absolute;			
+	margin: 2px;
+    text-align: Left;			
+    width: 230px;					
+    height:82px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: teal;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+div.tooltipTemp {	
+    position: absolute;			
+	margin: 2px;
+    text-align: Left;			
+    width: 260px;					
+    height:82px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: DeepPink   ;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+
+div.tooltipWind {	
+    position: absolute;			
+	margin: 2px;
+    text-align: Left;			
+    width: 220px;					
+    height:82px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: orange  ;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.legendTitle{
+	font: 8px sans-serif;
+}
+
+.axis{
+	font: 8px sans-serif;
+}
